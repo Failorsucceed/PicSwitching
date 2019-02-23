@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="123.css">
+</head>
+<body>
+<h1 >Snapshots</h1>
+<ul id="imagegallery">
+    <li>
+        <a href="images/1.jpg" title="The first pic">pic1</a>
+    </li>
+    <li>
+        <a href="images/2.jpg" title="The second pic" >pic2</a>
+    </li>
+    <li>
+        <a href="images/3.jpg" title="The third pic">pic3</a>
+    </li>
+    <li>
+        <a href="images/4.jpg" title=" The last pic">pic4</a>
+    </li>
+</ul>
+<img id="placeholder" src="" alt="my image gallery">
+<p id="description">Choose an image</p>
+<script src="main1.js"></script>
+</body>
+</html>
+
+
+<!--几个低级错误，1复制第二个程序的时候，缺少body和CSS样式的引入
+    2.ul的ID写错了，多加了一个分号，导致JS文件无法正常的加载，出现点击图片直接转跳的情况
+-->

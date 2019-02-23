@@ -1,0 +1,10 @@
+var placeholder=document.createElement('img');
+placeholder.setAttribute('id','placeholder');
+placeholder.setAttribute('src','');
+placeholder.setAttribute('alt','my image gallery');
+var description=document.createElement('p');
+description.setAttribute('id',description);
+var desctext=document.createTextNode('Choose a image');
+description.appendChild(desctext);
+document.body.appendChild(placeholder);
+document.body.appendChild(description);
